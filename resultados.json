@@ -1,0 +1,25 @@
+{
+  "rows": 150150,
+  "stores": 76,
+  "missing_total_price": 1,
+  "mean_units": 51.67,
+  "correlation_price_units": -0.2356,
+  "correlation_base_units": -0.14,
+  "models": {
+    "Regresión lineal": {
+      "MAE": 28.977,
+      "RMSE": 48.807,
+      "R2": 0.274
+    },
+    "Random Forest": {
+      "MAE": 22.169,
+      "RMSE": 37.862,
+      "R2": 0.5631
+    }
+  },
+  "best": "Random Forest",
+  "scenario": 51.6,
+  "scenario_store": 8091,
+  "train_rows": 120120,
+  "test_rows": 30030
+}
